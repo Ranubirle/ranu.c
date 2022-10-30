@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+    .container
+    {
+        position: relative;
+width: 1440px;
+height: 2688px;
+
+background: #F3F3F3;
+
+    }
+    nav.logo
+    {
+        
+position: absolute;
+left: 0%;
+right: 93.98%;
+top: 28.57%;
+bottom: 5.71%;
+
+/* Main Black */
+
+background: #181717;
+    }
+    nav{
+        position: absolute;
+width: 1120px;
+height: 35px;
+left: calc(50% - 1120px/2);
+top: 102px;
+
+    }
+    nav ul{
+        float:right;
+        display: flex;
+        list-style: none;
+        
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 25px;
+    }
+    nav ui li{
+        list-style: none;
+        text-decoration:none
+    }
+    nav ul  li a {
+
+
+        
+left: 0%;
+right: -0.8%;
+top: 0%;
+bottom: -25%;
+
+/* Navigation */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 120%;
+/* or 25px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+text-decoration: none;
+
+        
+       
+        
+       
+    }
+   .container header{
+    
+width: 1056px;
+height: 283.22px;
+left: 197px;
+top: 408px;
+
+    }
+    #s1
+    {
+        position: absolute;
+width: 1056px;
+height: 283.22px;
+left: 197px;
+top: 408px;
+
+    }
+    .h1
+    {
+        
+
+width: 360px;
+height: 129px;
+left: calc(50% - 360px/2 - 343px);
+top: 408px;
+
+/* Heading-1 */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+line-height: 97.2%;
+/* or 58px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+
+    }
+    .p1
+    {
+        
+width: 580px;
+height: 111px;
+left: calc(50% - 580px/2 + 243px);
+top: 472px;
+
+/* Heading-2 */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 117%;
+/* or 37px */
+
+letter-spacing: -0.03em;
+
+color: #606060;
+
+    }
+    .a1
+    {
+        
+width: 33.61px;
+height: 38.04px;
+left: calc(50% - 33.61px/2 - 506.16px);
+top: 653.18px;
+color:#181717;
+
+/* Main Black */
+
+
+    }
+   .body1
+    {
+        position: absolute;
+width: 1120px;
+height: 473px;
+left: 197px;
+top: 805px;
+
+
+    }
+    .project1
+    {
+        position: absolute;
+        
+left: 0%;
+right: 70.87%;
+top: 0%;
+bottom: 95.98%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+    }
+    .paragraph1
+    {
+        position: absolute;
+        
+left: 0%;
+right: 68.21%;
+top: 9.3%;
+bottom: 54.97%;
+
+/* Body */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+
+    }
+    .content1
+    {
+        position: absolute;
+left: 0%;
+right: 71.84%;
+top: 30.66%;
+bottom: 61.95%;
+
+/* Sub-text */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 121.5%;
+/* or 17px */
+
+letter-spacing: -0.03em;
+
+/* Main Gray */
+
+color: #606060;
+
+    }
+    .content2
+    {
+        
+position: absolute;
+left: 0%;
+right: 70.87%;
+top: 73.36%;
+bottom: 22.41%;
+
+/* Sub Header / Link */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+
+letter-spacing: -0.03em;
+text-decoration-line: underline;
+
+/* Main Black */
+
+color: #181717;
+
+    }
+    .seprator
+    {
+        position: absolute;
+left: 0.71%;
+right: -0.26%;
+top: 100%;
+bottom: 0%;
+
+border: 1.5px solid #181717;
+    }
+    .thumbnil
+    {
+        
+position: absolute;
+left: 42.86%;
+right: 0%;
+top: 0%;
+bottom: 22.9%;
+
+/* Main Gray */
+
+background: #606060;
+
+    }   .ranu-image
+    {
+        
+
+width: 640px;
+height: 365px;
+left: 683px;
+top: 807px;
+
+
+    }
+    .body2
+    {
+        
+position: absolute;
+width: 1120px;
+height: 473px;
+left: 197px;
+top: 1392px;
+
+    }
+    .project2
+    {
+        
+position: absolute;
+left: 0%;
+right: 70.87%;
+top: 0%;
+bottom: 95.98%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+
+
+    }
+    .paragraph2
+    {
+        position: absolute;
+left: 0%;
+right: 68.21%;
+top: 9.3%;
+bottom: 54.97%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+
+
+    }
+    .content3
+    {
+        position: absolute;
+left: 0%;
+right: 70.87%;
+top: 73.36%;
+bottom: 22.41%;
+
+/* Sub Header / Link */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+
+letter-spacing: -0.03em;
+text-decoration-line: underline;
+
+/* Main Black */
+
+color: #181717;
+
+    }
+    .body3
+    {
+        
+position: absolute;
+width: 1120px;
+height: 473px;
+left: 197px;
+top: 1979px;
+
+    }
+    .project3
+    {
+        
+position: absolute;
+left: 0%;
+right: 70.87%;
+top: 0%;
+bottom: 95.98%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+
+
+    }
+    .paragraph3
+    {
+        
+position: absolute;
+left: 0%;
+right: 68.21%;
+top: 9.3%;
+bottom: 54.97%;
+
+/* Body */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+
+    }
+    .content4
+    {
+        
+position: absolute;
+left: 0%;
+right: 70.87%;
+top: 73.36%;
+bottom: 22.41%;
+
+/* Sub Header / Link */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 121.5%;
+/* or 22px */
+
+letter-spacing: -0.03em;
+text-decoration-line: underline;
+
+/* Main Gray */
+
+color: #606060;
+
+    }
+    .r1{
+        position: absolute;
+left: 0%;
+right: 75.82%;
+top: 0%;
+bottom: 0%;
+
+/* Navigation */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 120%;
+/* or 25px */
+
+letter-spacing: -0.03em;
+
+/* Secondary */
+
+color: #2429AF;
+
+    }
+    .abs
+    {
+        
+position: absolute;
+left: 70.59%;
+right: 20.64%;
+top: 0%;
+bottom: 0%;
+
+/* Navigation */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 120%;
+/* or 25px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+
+    }
+    .l1{
+        
+position: absolute;
+left: 82.2%;
+right: 9.03%;
+top: 0%;
+bottom: 0%;
+
+/* Navigation */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 120%;
+/* or 25px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+
+
+    }
+    .t1{
+        position: absolute;
+left: 93.8%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Navigation */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 120%;
+/* or 25px */
+
+letter-spacing: -0.03em;
+
+/* Main Black */
+
+color: #181717;
+
+
+    }
+    .footer
+    {
+        position: absolute;
+width: 1120px;
+height: 20px;
+left: 160px;
+top: 2598px;
+
+    }
+
+</style>
+<body>
+    <div class="container">
+        <header>
+            <p>Portfolio-Work Page</p>
+        </header>
+        <nav>
+            <div class="logo"><h2>ma.</h2></div>
+            <ul>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Playground</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="s1">
+            <h1 class="h1">Hello, I’m Ranu Birle.</h1>
+            <p class="p1">A senior-year design student who trying to specialize in 3D modeling & texturing.</p> 
+           
+            
+            <p class="a1"> ↓ </p>
+        </section>
+        <section class="body1">
+            <p class="project1">01 / PROJECT NAME</p>
+            <p class="paragraph1">Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.
+
+
+            </p>
+            <p class="content1">Sculpted in ZBrush, Retopologized and UVs done in Maya, Textured in Mari, Rendered using Arnold.</p>
+            <p class="content2">More shots from this project ↗</p>
+            <section class="thumbnil">
+           
+             <img src="data:image/jpeg;base64,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" class="ranu-image" alt="image">
+            </section>
+            <hr class="seprator">
+        </section>
+        <section class="body2">
+            <p class="project2">02 / PROJECT NAME</p>
+            <p class="paragraph2">Subsurface weight, specular roughness, diffuse maps generated with the procedure and manual techniques.
+            </p>
+
+
+            </p>
+            <p class="content3">See case study →</p>
+            
+            <section class="thumbnil"></section>
+             <img src="Ranu.jpg" class="ranu-image" alt="image">
+            <hr class="seprator">
+            </section>
+            <section class="body3">
+                <p class="project3">03 / PROJECT NAME</p>
+                <p class="paragraph3">Experimental creature modeling for school project.</p>
+               <p class="content4">Project WIP</p>
+                <section class="thumbnil"></section>
+                
+                <hr class="seprator">
+            </section>
+            <footer class="footer">
+                <p class="r1">Ranu Birle ⏤ 2020 </p>
+                <p class="abs">Artstation</p>
+                <p class="l1">Linkedin</p>
+                <p class="t1">Twitter</p>
+            </footer>
+        
+        
+    </div>
+    
+</body>
+</html>
